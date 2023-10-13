@@ -1,0 +1,15 @@
+{
+  "name": "build-event-handler-template",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "ntli build -a",
+    "dev": "ntli dev -a",
+    "preview": "ntli preview"
+  },
+  "dependencies": {
+    "@netlify/sdk": "^1.0.9",
+    "typescript": "^5.2.2"
+  }
+}
