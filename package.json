@@ -4,12 +4,12 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "ntli build -a",
-    "dev": "ntli dev -a",
-    "preview": "ntli preview"
+    "build": "netlify-integration build -a",
+    "dev": "netlify-integration dev -a",
+    "preview": "netlify-integration preview"
   },
   "dependencies": {
-    "@netlify/sdk": "^1.0.9",
+    "@netlify/sdk": "^1.5.0",
     "typescript": "^5.2.2"
   }
 }
